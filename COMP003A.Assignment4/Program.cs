@@ -66,6 +66,7 @@ namespace COMP003A.Assignment4
                     active = false;
                 }
                 else
+                // displays error code if the input does not match a valid input
                 {
                     Console.WriteLine("invalid");
                 }
