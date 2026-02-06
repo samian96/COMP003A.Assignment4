@@ -38,7 +38,7 @@ namespace COMP003A.Assignment4
                 {
                     if (step >= safety)
                     {
-                        Console.WriteLine("Safety Limit Reached");
+                        Console.WriteLine("\n Safety Limit Reached");
                         continue;
                     }
 
@@ -49,27 +49,27 @@ namespace COMP003A.Assignment4
                      * */
                     if (step == 3)
                     {
-                        Console.WriteLine("Restricted step");
+                        Console.WriteLine("\n Restricted step");
                     }
                     else
                     {
-                        Console.WriteLine($"Current progress: {step} completed");
+                        Console.WriteLine($"\n Current progress: {step} completed");
                     }
                 }
                 else if (input == "2")
                 {
-                    Console.WriteLine($"Current progress: {step} completed");
+                    Console.WriteLine($"\n Current progress: {step} completed");
                 }
                 // checks to see if user input value 3 , displays writeline, then changes bool status to false to end the program
                 else if (input == "3")
                 {
-                    Console.WriteLine("End of Program");
+                    Console.WriteLine("\n End of Program");
                     active = false;
                 }
                 else
                 // displays error code if the input does not match a valid input 
                 {
-                    Console.WriteLine("invalid");
+                    Console.WriteLine("\n invalid");
                 }
             }
         }
