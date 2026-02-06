@@ -16,8 +16,10 @@
 
             int x = int.Parse(Console.ReadLine());
 
-
-
+            while (active)
+            {
+                Console.WriteLine("\n Start/ Continue Routine");
+            }
         }
     }
 }
