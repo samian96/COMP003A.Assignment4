@@ -10,6 +10,8 @@
 
             Console.WriteLine("3. Exit");
 
+            int step = 0;
+
             bool active = true;
 
             // start of a while loop
@@ -25,9 +27,9 @@
 
                 string input = Console.ReadLine();
 
-                if (input == "1")
+                if (input == "2")
                 {
-                    Console.WriteLine("display 1");
+                    Console.WriteLine($"Current progress:");
                 }
             }
         }
