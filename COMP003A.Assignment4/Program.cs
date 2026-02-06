@@ -20,7 +20,7 @@
             while (active)
             {
                 // Display the menu at the start of the console
-                Console.WriteLine("\n Start/ Continue Routine");
+                Console.WriteLine("\n 1. Start/ Continue Routine");
 
                 Console.WriteLine("2. View Progress");
 
@@ -39,6 +39,8 @@
                         continue;
                     }
 
+                    step++;
+
                     if (input == "2")
                     {
                         Console.WriteLine($"Current progress: {step} Completed");
@@ -51,7 +53,7 @@
                     }
                     else
                     {
-                        Console.WriteLine($"Cuttent progress: {step} completed");
+                        Console.WriteLine($"Current progress: {step} completed");
                     }
                 }
             }
