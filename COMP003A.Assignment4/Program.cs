@@ -36,7 +36,11 @@
                 if (step == 3)
                 {
                     Console.WriteLine("Restricted step");
-                    continue;
+                    
+                }
+                else
+                {
+                    Console.WriteLine($"Cuttent progress: {step} completed");
                 }
             }
         }
