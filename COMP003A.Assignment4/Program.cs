@@ -21,7 +21,7 @@
 
                 Console.WriteLine("3. Exit");
 
-                Console.WriteLine("Please Enter Choice:");
+                Console.Write("Please Enter Choice:");
 
                 string input = Console.ReadLine();
             }
