@@ -17,6 +17,7 @@
             // start of a while loop
             while (active)
             {
+                // Display the menu at the start of the console
                 Console.WriteLine("\n Start/ Continue Routine");
 
                 Console.WriteLine("2. View Progress");
