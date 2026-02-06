@@ -12,6 +12,8 @@
 
             string input = "";
 
+            int x = int.Parse(Console.ReadLine());
+
         }
     }
 }
