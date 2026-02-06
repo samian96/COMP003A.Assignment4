@@ -18,17 +18,18 @@ namespace COMP003A.Assignment4
 
             bool active = true;
 
+            // Display the menu at the start of the console
+            Console.WriteLine("\n 1. Start/ Continue Routine");
+
+            Console.WriteLine("2. View Progress");
+
+            Console.WriteLine("3. Exit");
+
+            Console.Write("Please Enter Choice:");
+
             // start of a while loop
             while (active)
             {
-                // Display the menu at the start of the console
-                Console.WriteLine("\n 1. Start/ Continue Routine");
-
-                Console.WriteLine("2. View Progress");
-
-                Console.WriteLine("3. Exit");
-
-                Console.Write("Please Enter Choice:");
 
                 string input = Console.ReadLine();
                 // start of if statement to check if the current condition is true or false to the input
@@ -66,7 +67,7 @@ namespace COMP003A.Assignment4
                     active = false;
                 }
                 else
-                // displays error code if the input does not match a valid input
+                // displays error code if the input does not match a valid input 
                 {
                     Console.WriteLine("invalid");
                 }
