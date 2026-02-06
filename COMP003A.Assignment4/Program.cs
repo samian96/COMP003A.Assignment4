@@ -12,6 +12,8 @@
 
             int step = 0;
 
+            int safety = 6;
+
             bool active = true;
 
             // start of a while loop
@@ -28,19 +30,29 @@
 
                 string input = Console.ReadLine();
                 // start of if statement to check if the current condition is true or false to the input
-                if (input == "2")
+
+                if (input == "1")
                 {
-                    Console.WriteLine($"Current progress: {step} Completed");
-                    step++;
-                }
-                if (step == 3)
-                {
-                    Console.WriteLine("Restricted step");
-                    
-                }
-                else
-                {
-                    Console.WriteLine($"Cuttent progress: {step} completed");
+                    if (step >= safety)
+                    {
+                        Console.WriteLine("Safety Limit Reached");
+                        continue;
+                    }
+
+                    if (input == "2")
+                    {
+                        Console.WriteLine($"Current progress: {step} Completed");
+                        step++;
+                    }
+                    if (step == 3)
+                    {
+                        Console.WriteLine("Restricted step");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Cuttent progress: {step} completed");
+                    }
                 }
             }
         }
