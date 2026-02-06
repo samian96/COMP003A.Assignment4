@@ -33,6 +33,11 @@
                     Console.WriteLine($"Current progress: {step} Completed");
                     step++;
                 }
+                if (step == 3)
+                {
+                    Console.WriteLine("Restricted step");
+                    continue;
+                }
             }
         }
     }
