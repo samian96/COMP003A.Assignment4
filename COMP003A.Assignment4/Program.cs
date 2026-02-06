@@ -12,7 +12,11 @@
 
             string input = "";
 
+            bool active = true;
+
             int x = int.Parse(Console.ReadLine());
+
+
 
         }
     }
