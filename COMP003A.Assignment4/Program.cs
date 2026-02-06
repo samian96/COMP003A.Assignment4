@@ -39,7 +39,7 @@ namespace COMP003A.Assignment4
                     if (step >= safety)
                     {
                         Console.WriteLine("\n Safety Limit Reached");
-                        continue;
+                        break; // break ends the program, preventing an endless loop of message displaying
                     }
 
                     step++;
