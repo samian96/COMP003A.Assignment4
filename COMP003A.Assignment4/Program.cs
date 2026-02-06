@@ -65,6 +65,10 @@ namespace COMP003A.Assignment4
                     Console.WriteLine("End of Program");
                     active = false;
                 }
+                else
+                {
+                    Console.WriteLine("invalid");
+                }
             }
         }
     }
