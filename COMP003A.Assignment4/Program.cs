@@ -26,10 +26,11 @@
                 Console.Write("Please Enter Choice:");
 
                 string input = Console.ReadLine();
-
+                // start of if statement to check if the current condition is true or false to the input
                 if (input == "2")
                 {
-                    Console.WriteLine($"Current progress:");
+                    Console.WriteLine($"Current progress: {step} Completed");
+                    step++;
                 }
             }
         }
