@@ -20,6 +20,10 @@
                 Console.WriteLine("2. View Progress");
 
                 Console.WriteLine("3. Exit");
+
+                Console.WriteLine("Please Enter Choice:");
+
+                string input = Console.ReadLine();
             }
         }
     }
