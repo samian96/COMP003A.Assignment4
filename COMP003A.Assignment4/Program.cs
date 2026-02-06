@@ -9,6 +9,9 @@
             Console.WriteLine("2. View Progress");
 
             Console.WriteLine("3. Exit");
+
+            string input = "";
+
         }
     }
 }
