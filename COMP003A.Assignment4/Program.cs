@@ -18,7 +18,11 @@
             // start of a while loop
             while (active)
             {
-                Console.WriteLine("\n Start/ Continue Routine")
+                Console.WriteLine("\n Start/ Continue Routine");
+
+                Console.WriteLine("2. View Progress");
+
+                Console.WriteLine("3. Exit");
             }
         }
     }
