@@ -25,11 +25,11 @@ namespace COMP003A.Assignment4
 
             Console.WriteLine("3. Exit");
 
-            Console.Write("Please Enter Choice:");
-
             // start of a while loop
             while (active)
             {
+
+                Console.Write("Please Enter Choice:");
 
                 string input = Console.ReadLine();
                 // start of if statement to check if the current condition is true or false to the input
