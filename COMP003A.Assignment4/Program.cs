@@ -1,4 +1,6 @@
-﻿namespace COMP003A.Assignment4
+﻿using System.ComponentModel.Design;
+
+namespace COMP003A.Assignment4
 {
     internal class Program
     {
@@ -48,8 +50,11 @@
                     else
                     {
                         Console.WriteLine($"Current progress: {step} completed");
-                        step++;
                     }
+                }
+                else if (input == "2")
+                {
+                    Console.WriteLine($"Current progress: {step} completed");
                 }
             }
         }
