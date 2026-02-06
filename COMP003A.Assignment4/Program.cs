@@ -56,6 +56,7 @@ namespace COMP003A.Assignment4
                 {
                     Console.WriteLine($"Current progress: {step} completed");
                 }
+                // checks to see if user input value 3 , displays writeline, then changes bool status to false to end the program
                 else if (input == "3")
                 {
                     Console.WriteLine("End of Program");
