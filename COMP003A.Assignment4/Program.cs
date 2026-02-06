@@ -42,7 +42,10 @@ namespace COMP003A.Assignment4
                     }
 
                     step++;
-
+                    /* checks to see if int value is equal to 3
+                     * if true, will display writeline
+                     * if false, will skip this step
+                     * */
                     if (step == 3)
                     {
                         Console.WriteLine("Restricted step");
