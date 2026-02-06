@@ -56,6 +56,11 @@ namespace COMP003A.Assignment4
                 {
                     Console.WriteLine($"Current progress: {step} completed");
                 }
+                else if (input == "3")
+                {
+                    Console.WriteLine("End of Program");
+                    active = false;
+                }
             }
         }
     }
