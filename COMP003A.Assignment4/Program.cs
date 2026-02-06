@@ -24,6 +24,11 @@
                 Console.Write("Please Enter Choice:");
 
                 string input = Console.ReadLine();
+
+                if (input == "1")
+                {
+                    Console.WriteLine("display 1");
+                }
             }
         }
     }
